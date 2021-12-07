@@ -1,0 +1,7 @@
+18:06:00 **** Clean-only build of configuration Debug for project MK64F12_SPI_TermocoupleSDK ****
+make -r -j12 clean 
+rm -rf  ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/startup_mk64f12.o  ./source/MK64F12_SPI_TermocoupleSDK.o ./source/semihost_hardfault.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_common_arm.o ./drivers/fsl_dspi.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./device/system_MK64F12.o  ./component/uart/fsl_adapter_uart.o  ./component/serial_manager/fsl_component_serial_manager.o ./component/serial_manager/fsl_component_serial_port_uart.o  ./component/lists/fsl_component_generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o  ./utilities/fsl_debug_console.d ./utilities/fsl_str.d  ./startup/startup_mk64f12.d  ./source/MK64F12_SPI_TermocoupleSDK.d ./source/semihost_hardfault.d  ./drivers/fsl_adc16.d ./drivers/fsl_clock.d ./drivers/fsl_common.d ./drivers/fsl_common_arm.d ./drivers/fsl_dspi.d ./drivers/fsl_gpio.d ./drivers/fsl_i2c.d ./drivers/fsl_smc.d ./drivers/fsl_uart.d  ./device/system_MK64F12.d  ./component/uart/fsl_adapter_uart.d  ./component/serial_manager/fsl_component_serial_manager.d ./component/serial_manager/fsl_component_serial_port_uart.d  ./component/lists/fsl_component_generic_list.d  ./board/board.d ./board/clock_config.d ./board/peripherals.d ./board/pin_mux.d  MK64F12_SPI_TermocoupleSDK.axf
+ 
+
+18:06:01 Build Finished. 0 errors, 0 warnings. (took 211ms)
+

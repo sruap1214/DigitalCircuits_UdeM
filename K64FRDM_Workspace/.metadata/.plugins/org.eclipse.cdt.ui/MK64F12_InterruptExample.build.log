@@ -1,0 +1,6 @@
+11:16:02 **** Incremental Build of configuration Debug for project MK64F12_InterruptExample ****
+make -r -j12 all 
+make: Nothing to be done for 'all'.
+
+11:16:03 Build Finished. 0 errors, 0 warnings. (took 114ms)
+

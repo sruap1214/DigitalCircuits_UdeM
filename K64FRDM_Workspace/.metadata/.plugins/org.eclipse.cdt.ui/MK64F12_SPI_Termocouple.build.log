@@ -1,0 +1,6 @@
+12:50:34 **** Incremental Build of configuration Debug for project MK64F12_SPI_Termocouple ****
+make -r -j8 all 
+make: Nothing to be done for 'all'.
+
+12:50:34 Build Finished. 0 errors, 0 warnings. (took 146ms)
+

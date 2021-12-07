@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;frdmk64f_uart_polling_Borrar&apos;" deleteContents="true" description="Delete resource &apos;frdmk64f_uart_polling_Borrar&apos;" element1="/frdmk64f_uart_polling_Borrar" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1634654010228"/>
+</session>

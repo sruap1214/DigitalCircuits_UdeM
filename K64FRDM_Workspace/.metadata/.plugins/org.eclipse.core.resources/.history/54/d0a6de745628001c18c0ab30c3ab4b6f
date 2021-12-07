@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include "clock_config.h"
+#include "MK64F12.h"
+
+void Init_SPI1(void);
+
+int main(void) {
+
+    /* Init board hardware. */
+    BOARD_InitBootClocks();
+
+    while(1) {
+
+    }
+    return 0 ;
+}
+
+void Init_SPI1(void){
+	// Enable clock to SPI1
+	SIM->SCGC5 |= SIM_SCGC5_PORTE_MASK;
+	SIM->SCGC6 |= SIM_SCGC6_SPI1_MASK;
+
+	// Freeze SPI in debug mode
+	SPI1->MCR |= SPI_MCR_HALT_MASK;
+
+}

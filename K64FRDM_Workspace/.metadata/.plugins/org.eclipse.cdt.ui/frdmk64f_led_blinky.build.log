@@ -1,0 +1,6 @@
+15:30:07 **** Incremental Build of configuration Debug for project frdmk64f_led_blinky ****
+make -r -j8 all 
+make: Nothing to be done for 'all'.
+
+15:30:07 Build Finished. 0 errors, 0 warnings. (took 159ms)
+

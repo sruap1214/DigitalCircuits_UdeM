@@ -1,0 +1,8 @@
+1638891689547	Delete resource 'MK64F12_Borrar'
+1638891949199	Rename resource 'FRDMK64_ExampleRGB'
+1638891988905	Delete resource 'MK64F12_ExampleRGB/FRDMK64_ExampleRGB.mex'
+1638891993948	Delete resource 'MK64F12_ExampleRGB/FRDMK64_ExampleRGB LinkServer Debug.launch'
+1638892459471	Rename resource 'frdmk64f_hello_world'
+1638892468376	Delete resource 'MK64F12_HelloWorld/frdmk64f_hello_world LinkServer Debug.launch'
+1638892510822	Delete resource 'frdmk64f_hello_world_Example'
+1638892547592	Delete resource 'frdmk64f_hello_world_HW2'

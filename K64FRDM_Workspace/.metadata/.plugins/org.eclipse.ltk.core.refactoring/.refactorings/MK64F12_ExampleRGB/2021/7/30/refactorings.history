@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FRDMK64_ExampleRGB/source/MK64F12_Project.c&apos; to &apos;main_RGBProject.c&apos;" description="Rename resource &apos;MK64F12_Project.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="source/MK64F12_Project.c" name="main_RGBProject.c" stamp="1626986839913" updateReferences="true"/>
+</session>

@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include "board.h"
+#include "peripherals.h"
+#include "pin_mux.h"
+#include "clock_config.h"
+#include "MK64F12.h"
+#include "fsl_debug_console.h"
+
+
+int main(void) {
+	uint32_t temp = 0;
+
+    /* Init board hardware. */
+    BOARD_InitBootPins();
+    BOARD_InitBootClocks();
+    BOARD_InitBootPeripherals();
+
+    PRINTF("Hello World\n");
+
+    //
+    dspi_command_data_config_t SPIConfig;
+    SPIConfig.isPcsContinuous = false;
+    SPIConfig.whichCtar = kDSPI_Ctar0;
+    SPIConfig.whichPcs = kDSPI_Pcs0;
+    SPIConfig.isEndOfQueue = true;
+    SPIConfig.clearTransferCount = false;
+
+    while(1) {
+    	DSPI_MasterWriteData(SPI0, &SPIConfig, 0x00);
+    	// Wait for Tx buffer empty
+    	while(!(DSPI_GetStatusFlags(SPI0) & kDSPI_TxCompleteFlag));
+
+    	// Wait for data in Rx buffer
+    	while (!(DSPI_GetStatusFlags(SPI0) & kDSPI_RxFifoDrainRequestFlag));
+    	temp = DSPI_ReadData(SPI0);
+
+    }
+    return 0 ;
+}

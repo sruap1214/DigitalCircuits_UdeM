@@ -1,0 +1,6 @@
+12:52:34 **** Incremental Build of configuration Debug for project MK64F12_STH3X ****
+make -r -j8 all 
+make: Nothing to be done for 'all'.
+
+12:52:34 Build Finished. 0 errors, 0 warnings. (took 136ms)
+

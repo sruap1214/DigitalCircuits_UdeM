@@ -1,0 +1,6 @@
+17:48:44 **** Incremental Build of configuration Debug for project MK64F12_Project ****
+make -r -j8 all 
+make: Nothing to be done for 'all'.
+
+17:48:44 Build Finished. 0 errors, 0 warnings. (took 117ms)
+
