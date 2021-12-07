@@ -1,0 +1,9 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'c:/Users/SANTIAGO RUA PEREZ/OneDrive/Documents/Docencia/UdeM/2021/2021-02/Sistemas Embebidos/03_Software/EjemplosC/EjemploLibrerias2'
+mkdir output
+gcc -Wall -Wextra -g -Iinclude -c src/LibreriaPropia.c  -o src/LibreriaPropia.o
+gcc -Wall -Wextra -g -Iinclude -c src/main.c  -o src/main.o
+gcc -Wall -Wextra -g -Iinclude -o output\main.exe src/LibreriaPropia.o src/main.o  -Llib
+echo Executing 'all' complete!
+make.exe: Leaving directory 'c:/Users/SANTIAGO RUA PEREZ/OneDrive/Documents/Docencia/UdeM/2021/2021-02/Sistemas Embebidos/03_Software/EjemplosC/EjemploLibrerias2'
+ 
