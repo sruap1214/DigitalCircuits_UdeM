@@ -14,6 +14,6 @@ This is a repository with all the code associated with the course of Digital Cir
 
 
 ## References
-[1] Deitel, P and Deitel, H (2016). \textit{C how to program with an introduction to C++}. Pearson, Ed. 8, pp 1006
-[2] Dean, A (2017). \textit{Embedded systems fundamentals with ARM Cortex-M based Microcontrollers}. ARM Education Media, pp 292.
-[3] Ali, M; Chen, S; Naimi, S; and Naimi, S. (2014) \textit{Freescale ARM Cortex'M Embedded Programming using C Language}. Microdigital, pp 336.
+- Deitel, P and Deitel, H (2016). *C how to program with an introduction to C++*. Pearson, Ed. 8, pp 1006
+- Dean, A (2017). *Embedded systems fundamentals with ARM Cortex-M based Microcontrollers*. ARM Education Media, pp 292.
+- Ali, M; Chen, S; Naimi, S; and Naimi, S. (2014) *Freescale ARM Cortex'M Embedded Programming using C Language*. Microdigital, pp 336.
